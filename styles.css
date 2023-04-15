@@ -1,0 +1,47 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("runner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(2px);
+}
+
+h1 {
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 50px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: 5px solid rgb(0, 35, 0);
+    border-width: 0.1em;
+    width: max-content;
+    padding: 0 10px;
+    border-radius: 7.5px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+
+}
+
+#save-btn {
+    background: darkolivegreen;
+}
+
